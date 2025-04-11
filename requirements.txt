@@ -2,4 +2,5 @@ streamlit
 torch==2.2.0+cpu
 torchvision==0.17.0+cpu
 Pillow
+matplotlib
 --extra-index-url https://download.pytorch.org/whl/cpu
