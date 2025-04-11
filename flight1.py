@@ -56,7 +56,6 @@ transform = transforms.Compose([
     transforms.Normalize([0.485, 0.456, 0.406],
                          [0.229, 0.224, 0.225])
 ])
-image_tensor = transform(image).unsqueeze(0).to(device)
 # --- Streamlit UI ---
 st.set_page_config(page_title="✈️ Airline Recogniser", layout="centered")
 #st.title("🛫 Airline Recogniser")
